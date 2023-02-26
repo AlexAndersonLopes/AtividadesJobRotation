@@ -46,7 +46,7 @@ public class JobRotation {
             k=k+1;
             soma=soma+k;
         }        
-        System.out.println(soma);
+        System.out.println("A soma = " + soma);
     }
     
     
@@ -148,7 +148,6 @@ public class JobRotation {
         Scanner sc = new Scanner(System.in);
         
         System.out.print("\n\nDigite seu texto: ");
-        sc.nextLine();
         String texto = sc.nextLine();        
             String contrario="";
          
